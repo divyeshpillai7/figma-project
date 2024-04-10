@@ -1,0 +1,604 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+
+    /* border: 1px solid black; */
+    /* width: 1514px; */
+    height: 89px;
+}
+
+.container-fluid {
+    margin: 0px 43px 0px 43px;
+}
+
+.navbar-brand {
+
+    font-family: "VT323", monospace;
+    line-height: 48.95px;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.one {
+    /* border: 1px solid red; */
+    width: 424px;
+    height: 43px;
+
+}
+
+.two {
+    width: 380px;
+    height: 55px;
+    /* border: 1px solid black; */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: "Cairo", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 18.69px;
+}
+
+.contact {
+    width: 233px;
+    height: 55px;
+    border: 1px solid #004C6D;
+    border-radius: 13px;
+    background-color: #EEFEFF;
+    font-family: "Cairo", sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 18.69px;
+    text-align: center;
+    color: #004C6D;
+    box-shadow: 2px 2px 0px 0px #004C6D;
+}
+
+.contact:hover {
+    background-color: #d3eef0;
+    color: black;
+    border: 1px solid #004C6D;
+}
+
+.bgimg {
+    background-image: url('bg\ flipped.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* width: 1513px; */
+    height: 610px;
+}
+
+
+.cont p {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 680px;
+    height: 193.78px;
+    top: 225.43px;
+    left: 76px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    font-family: Cairo;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 48.95px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.email {
+
+    position: absolute;
+    width: 610px;
+    height: 54.38px;
+    top: 507.2px;
+    left: 76px;
+    border: 5px;
+
+}
+
+
+input::placeholder {
+    color: white;
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 18.69px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.form-control {
+    background-color: rgba(47, 46, 46, 0.229);
+
+}
+
+.git {
+    width: 188px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 14.24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+.git:hover {
+    background-color: #EEFEFF;
+    color: black;
+}
+
+.git:active {
+    background-color: #EEFEFF;
+    color: black;
+}
+
+
+/* css for bgtwo  */
+
+.bgtwo {
+    /* border: 1px solid red; */
+    width: 1440px;
+    height: 594px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grp1 {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgtwo p.bold {
+    width: 987px;
+    height: 111px;
+    /* border: 1px solid black; */
+    font-family: Cairo;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 48.95px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+
+}
+
+.bgtwo p.text {
+    width: 1131px;
+    height: 30px;
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 30.26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #737373;
+}
+
+.grp2 {
+    width: 100%;
+    /* border: 1px solid rgb(73, 73, 4); */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 32%;
+    height: 370px;
+    background-color: #EEFEFF;
+    box-shadow: 0px 0px 2px 0px #00000036;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parahead {
+    width: 320px;
+    height: 78px;
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #004C6D;
+}
+
+.paratext {
+    width: 320px;
+    height: 145px;
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #004C6D;
+
+}
+
+.services {
+    /* width: 552px; */
+    /* height: 49px; */
+    font-family: Cairo;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 48.95px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: #575757;
+    margin: 100px auto;
+}
+
+.data {
+
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    height: 480px;
+
+}
+
+.img2 {
+
+    width: 60%;
+    height: 480px;
+    border-radius: 13px 0px 0px 0px;
+}
+
+.heading {
+    font-family: Cairo;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 48.95px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.para {
+    font-family: Cairo;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 23.14px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.explore {
+    align-self: center;
+    width: 199px;
+    height: 55px;
+    border: 1px 0px 0px 0px;
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 18.69px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background-color: #004C6D;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.explore:hover {
+    background-color: #004C6D;
+}
+
+.btn1 {
+    background-color: #004C6D;
+}
+
+.btn-primary:active {
+    background-color: red;
+}
+
+.left {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.logos {
+    margin: 100px auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pics {
+    cursor: pointer;
+    width: 125px;
+    height: 90px;
+
+}
+
+.aws {
+    width: 100px;
+    height: 50px;
+
+}
+
+.azure {
+    width: 100px;
+    height: 50px;
+}
+
+.client {
+    margin: 30px auto;
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 30.26px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: #575757;
+}
+
+.feedbox {
+    width: 350px;
+    height: 350px;
+    border-radius: 13px;
+    border: 1px solid #004C6D;
+    box-shadow: 0px 0px 2px 0px #00000036;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px 0px #00000036;
+
+
+}
+
+.feedback {
+
+    /* border: 1px solid red; */
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+}
+
+.content {
+    width: 288px;
+
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: black;
+}
+
+.john {
+    width: 288px;
+    height: 21px;
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: black;
+}
+
+.post {
+    width: 288px;
+    height: 16px;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: black;
+}
+
+.worktogether p {
+    width: 783px;
+    height: 61px;
+    font-family: Cairo;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 60.52px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: black;
+}
+
+.callback {
+    width: 377px;
+    height: 76px;
+    border-radius: 13px;
+    border: 1px 0px 0px 0px;
+    background: #EEFEFF;
+    border: 1px solid #004C6D;
+    box-shadow: 0px 0px 5px 2px #7DF9FF57 inset;
+    box-shadow: 2px 2px 0px 0px #004C6D;
+    font-family: Cairo;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 23.14px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #004C6D;
+    margin-top: 30px;
+
+
+}
+
+footer {
+    height: 610px;
+    background-color: #F2F2F2;
+}
+
+.worktogether {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.foot1 {
+    height: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.foot2 {
+    height: 40%;
+    /* border: 1px solid black; */
+}
+
+.leftfoot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 50%;
+    height: 90%;
+}
+
+.rightfoot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 90%;
+}
+
+.datanetics {
+
+    font-family: VT323;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 48.95px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.desc1 {
+
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 30.26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.join {
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 30.26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.desc2 {
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 25.83px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.socials {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.socials img {
+    margin-right: 30px;
+}
+
+.email2 {
+    width: 500px;
+    height: 50px;
+}
+
+.emailinput {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.git2 {
+    border: 3px solid #000000;
+}
+
+.bottom-foot {
+    
+    width: 90%;
+    height: 100%;
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 18.69px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-heads {
+    
+    font-family: Cairo;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 30.26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
